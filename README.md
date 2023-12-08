@@ -1,4 +1,4 @@
-#Google Chrome Clone
+# Google Chrome Clone
 A simple Google Chrome clone, made in 5 hours.
 
 ### Warning!!

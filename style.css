@@ -1,0 +1,134 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    font-size: 81.25%;
+	background-color: var(--background);
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+:root{
+	--white: #fff;
+	--background-black: rgb(53, 53, 53);
+	--background-white: rgb(218,220,224);
+	--black: #000;
+	--logo-black: #1f1f1f;
+	--buttn-black: rgb(60, 64, 67);
+	--button-gray: rgb(175, 175, 175);
+	--text-color-button: rgb(48, 48, 48);
+}
+
+.nav-bar{
+	padding: 8px;
+	width: 100%;
+	height: 48px;
+}
+
+.nav-bar a{
+	float: right;
+	margin-right: 10px;
+	position: relative;
+	top: 10px;
+	right: 23px;
+	text-align: right;
+	font-size: 14px;
+	text-decoration: none;
+	color: var(--text-color);
+}
+
+.nav-bar a:hover{
+	text-decoration: underline;
+}
+
+.nav-a{
+	position: relative;
+	top: 3px;
+}
+
+.nav-bar .nav-icons{
+	position: relative;
+	left: 10px;
+}
+
+.google-logo{
+	border-radius: 20px;
+	width: 438px;
+	background-color: var(--logo-background);
+	padding: 16px 24px;
+	margin: auto;
+	position: relative;
+	top: 20px;
+}
+
+.google-logo img{
+	width: 400px;
+	height: 160px;
+	text-align: center;
+	position: relative;
+	left: 17px;
+}
+
+.input-wrapper{
+	height: 100%;
+    position: relative;
+}
+
+input[type="text"]{
+	width: 461px;
+	height: 42px;
+	padding: 1px 87px 1px 52px;
+	border: none;
+	border-radius: calc(0.5 * 44px);
+	position: relative;
+	top: 72px;
+	left: 330px;
+	font-size: 16px;
+	box-shadow: 0 1px 6px 0 #20212451;
+}
+
+input:focus{
+	outline: none;
+}
+
+#search-icon{
+	position: relative;
+	top: 78px;
+	right: 260px;
+	scale: 0.8;
+	color: #5f6368ff;
+	cursor: pointer;
+	background: none;
+	border: none;
+}
+
+#mic-icon{
+	position: relative;
+	top: 79px;
+	cursor: pointer;
+	background: none;
+	border: none;
+	color: #5f6368ff;
+	left: 205px;
+	scale: 0.9;
+}
+
+#photo-icon{
+	position: relative;
+	top: 78px;
+	cursor: pointer;
+	background: none;
+	border: none;
+	color: #5f6368ff;
+	left: 200px;
+	scale: 0.9;
+}
+
+.light-theme{
+	--background: var(--background-white);
+	--text-color: var(--black);
+	--logo-background: var(--white);
+	--button-colors: var(--buttn-black);
+	--button-customize: var(--button-gray);
+	--color-text-button: var(--text-color-button);
+}
